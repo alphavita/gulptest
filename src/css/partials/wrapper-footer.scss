@@ -1,0 +1,44 @@
+footer {
+
+	/*height: 385px;*/
+	padding-left: 40px;
+	margin: 0 auto;
+	width: 1240px;
+	padding-top: 60px;
+	padding-bottom: 80px;
+}
+footer h2 {
+	font-family: 'Ubuntu', arial;
+	color:  #ffffff;
+	font-size: 16px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 500;
+	line-height: 24px;/* Приближение из-за подстановки шрифтов */
+	text-align: left;
+	text-transform: uppercase;
+}
+.footer-social,
+.footer-links,
+.footer-blogroll,
+.footer-us {
+	float: left;
+	width: 260px;
+	margin-right: 40px;
+}
+footer li {
+	list-style: none;
+	border-bottom: 1px solid #393c40;
+}
+footer li:nth-of-type(4) {
+	border-bottom: none;
+}
+footer a {
+	text-decoration: none;
+  font-size: 13px;
+  font-family: "Arial";
+  color: rgb(130, 131, 133);
+  line-height: 2.769;
+  text-align: left;
+}
+footer a:hover {
+	color: #2487e3;
+}
