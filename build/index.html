@@ -4,11 +4,13 @@
 	<meta charset="UTF-8">
 	<title>Have fun using gulp</title>
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
-	<link rel="stylesheet" href="css/owl.carousel.css">
-	<!-- <link rel="stylesheet" href="css/owl.theme.css"> -->
+	<link rel="stylesheet" href="css/swiper.css">
+
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
+
 	<script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
-	<script src="js/owl.carousel.js"></script>
+	 <script src="js/swiper.min.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
 </head>
 <body>
@@ -16,11 +18,23 @@
 	<a href="#"><img src="img/logo_main.png"></a>
 
 	<div class="sozlink">
-		<a href="#" class="fb"><img src="img/facebook.png"></a>
-		<a href="#"><img src="img/twitter.png"></a>
-		<a href="#"><img src="img/rss.png"></a>
-		<a href="#"><img src="img/linkedin.png"></a>
-		<a href="#"><img src="img/skype.png"></a>
+		<a href="#" >
+		<span class="fa fa-facebook"></span>
+		</a>
+
+		<a href="#" >
+			<span class="fa fa-twitter"></span>
+		</a>
+		<a href="#">
+			<span class="fa fa-rss"></span>
+		</a>
+		<a href="#">
+			<span class="fa fa-linkedin">
+			</span>
+		</a>
+		<a href="#" >
+			<span class="fa fa-skype"></span>
+		</a>
 	</div>
 
 </div>
@@ -47,19 +61,67 @@
   <input type="submit" name="" value="" class="submit" />
 </form>
 </div>
-<div class="carousel">
-    <div id="owl-demo" class="owl-carousel owl-theme">
+ <!-- Swiper -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="img/slide1.jpg"></div>
+            <div class="swiper-slide"><img src="img/slide2.jpg"></div>
+            <div class="swiper-slide"><img src="img/slide3.jpg"></div>
+            <!-- <div class="swiper-slide">Slide 4</div>
+            <div class="swiper-slide">Slide 5</div>
+            <div class="swiper-slide">Slide 6</div>
+            <div class="swiper-slide">Slide 7</div>
+            <div class="swiper-slide">Slide 8</div> -->
+           <!--  <div class="swiper-slide">Slide 9</div>
+            <div class="swiper-slide">Slide 10</div> -->
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
 
-  <div class="item"><img src="img/slide1.jpg" alt="The Last of us"></div>
-  <div class="item"><img src="img/slide2.jpg" alt="GTA V"></div>
-  <div class="item"><img src="img/slide3.jpg" alt="Mirror Edge"></div>
 
-</div>
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true
+    });
+    </script>
+<article>
+			<div class="article-item">
+				<div class=article-number><span>01</span></div>
+				<div class="article-content">
+					<a class="article-content-img settings "></a>
+					<h3>Power Inside</h3>
+					<p>Cum sociis natoque penatibus et magnis dis parturient montesmus. Pro vel nibh et elit mollis commodo et nec augueique Nemo enim ipsam voluptatem quia
+ptas sit aspernatur samomo enim ipsam voluptatem.</p>
+					<a href="">Read More<span>&#129050;</span></a>
+				</div>
 
+			</div>
+			<div class="article-item">
+				<div class=article-number>02</div>
+				<div class="article-content">
+					<a class="article-content-img params "></a>
+					<h3>New technologies</h3>
+					<p>Cum sociis natoque penatibus et magnis dis parturient montesmus. Pro vel nibh et elit mollis commodo et nec augueique Nemo enim ipsam voluptatem quia
+ptas sit aspernatur samomo enim ipsam voluptatem.</p>
+					<a href="">Read More<span>&#129050;</span></a>
+				</div>
+			</div>
+			<div class="article-item">
+				<div class=article-number>03</div>
+				<div class="article-content">
+					<a class="article-content-img truck "></a>
+					<h3>Fast Supportes</h3>
+					<p>Cum sociis natoque penatibus et magnis dis parturient montesmus. Pro vel nibh et elit mollis commodo et nec augueique Nemo enim ipsam voluptatem quia
+ptas sit aspernatur samomo enim ipsam voluptatem.</p>
+					<a href="">Read More<span>&#129050;</span></a>
+				</div>
 
+			</div>
+		<div class="clearfix"></div>
 
-</div>
-
+	</article>
 <div class="wrapper-servies">
 		<div class="servies">
 		<h2>Our Services</h2>
@@ -68,6 +130,7 @@
 				<figure>
 
 			<img src="img/Schedule-Services.jpg">
+			<p>+</p>
 			<figcaption>
 				 Schedule Services
 			</figcaption>
@@ -78,6 +141,7 @@
 			<figure>
 
 			<img src="img/machine.jpg">
+			<p>+</p>
 			<figcaption>
 				Preventive Maintence
 			</figcaption>
@@ -87,7 +151,8 @@
 		<a href="">
 		<figure>
 
-			<img src="img/tire2.jpg">
+			<img src="img/Layer 15.jpg">
+			<p>+</p>
 			<figcaption>
 				Tire & Wheel Services
 			</figcaption>
@@ -98,6 +163,7 @@
 		<figure>
 
 			<img src="img/servies.jpg">
+			<p>+</p>
 			<figcaption>
 				Repair Services
 			</figcaption>
@@ -109,7 +175,85 @@
 
 		</div>
 	</div>
-
+<div class="wrapper-news-banners"
+    <div class="news-banners">
+            <div class="news-banners__container container">
+                <div class="latest-news">
+                    <p class="latest-news__header">Latest News</p>
+                    <div class="latest-news__new">
+                        <div class="latest-news__picture ">
+                            <img src="img/design-engineer.png" alt="" />
+                            <div class="latest-news__date">
+                                <div><p>Jan</p></div>
+                                <div><p>23</p></div>
+                            </div>
+                        </div>
+                        <div class="latest-news__article ">
+                            <p class="latest-news_text--header">Advanced Machinery Helps Improve Quality</p>
+                            <p class="latest-news_text--subheader"><span>by&nbsp;</span><span>cmsmasters</span>&nbsp;&nbsp;<span>Comments (</span><span>6</span><span>)</span></p>
+                            <p class="latest-news_text--content">Cum sociis natoque penatibus et magnis dis parturient ontesmus. Pro vel nibh et_news-elit mollis commodo et nec augueique Nemo enim ipsam voluptatem quia ptas sit aspernatur samomo enim ipsam voluptatem.</p>
+                        </div>
+                    </div>
+                    <div class="latest-news__new">
+                        <div class="latest-news__picture ">
+                            <img src="img/electrical-engineer-720.png" alt="" />
+                            <div class="latest-news__date">
+                                <div><p>Jan</p></div>
+                                <div><p>21</p></div>
+                            </div>
+                        </div>
+                        <div class="latest-news__article position_right">
+                            <p class="latest-news_text--header">Powerful Techniques for Advanced Service</p>
+                            <p class="latest-news_text--subheader"><span>by&nbsp;</span><span>cmsmasters</span>&nbsp;&nbsp;<span>Comments (</span><span>3</span><span>)</span></p>
+                            <p class="latest-news_text--content">Cum sociis natoque penatibus et magnis dis parturient ontesmus. Pro vel nibh et elit mollis commodo et nec augueique Nemo enim ipsam voluptatem quia ptas sit aspernatur samomo enim ipsam voluptatem.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="banners-place">
+                    <p class="banners__header">Banners Place</p>
+                    <div class="banners__accordion">
+                        <div class="accordion__panel panel__active">
+                            <div class="panel__header">
+                                <div class="panel__toggle panel" >-</div>
+                                <div class="panel__title panel">ACCORDION PANEL 1</div>
+                            </div>
+                            <div class="panel__description">
+                                Cum sociis natoque penatibus et magnis dis parturient mus. Pro vel nibh et elit mollis commodo et nec augueique Nemo enim ipsam voluptatem quia ptas sit aspernatur momo. Cum sociis natoque penatibus et magnis dis parturient ontesmus. Nemo enim ipsam voluptatem quia ptas sit aspernatur samomoPro vel nibh et elit mollis commodo et nec augueique Nemo enim ipsam voluptatem quia ptas sit aspernatur samomo enim ipsam voluptatem.
+                            </div>
+                        </div>
+                        <div class="accordion__panel">
+                            <div class="panel__header">
+                                <div class="panel__toggle">+</div>
+                                <div class="panel__title">ACCORDION PANEL 2</div>
+                            </div>
+                            <div class="panel__description">
+                                Cum sociis natoque penatibus et magnis dis parturient mus. Pro vel nibh et elit mollis commodo et nec augueique Nemo enim ipsam voluptatem quia ptas sit aspernatur momo. Cum sociis natoque penatibus et magnis dis parturient ontesmus. Nemo enim ipsam voluptatem quia ptas sit aspernatur samomoPro vel nibh et elit mollis commodo et nec augueique
+                            </div>
+                        </div>
+                        <div class="accordion__panel">
+                            <div class="panel__header">
+                                <div class="panel__toggle">+</div>
+                                <div class="panel__title">ACCORDION PANEL 3</div>
+                            </div>
+                            <div class="panel__description">
+                                Cum sociis natoque penatibus et magnis dis parturient mus. Pro vel nibh et elit mollis commodo et nec augueique Nemo enim ipsam voluptatem quia ptas sit aspernatur momo. Cum sociis natoque penatibus et magnis dis parturient ontesmus.
+                            </div>
+                        </div>
+                        <div class="accordion__panel">
+                            <div class="panel__header">
+                                <div class="panel__toggle">+</div>
+                                <div class="panel__title">ACCORDION PANEL 4</div>
+                            </div>
+                            <div class="panel__description">
+                                Cum sociis natoque penatibus et magnis dis parturient mus. Pro vel nibh et elit mollis commodo et nec augueique Nemo enim ipsam voluptatem quia ptas sit aspernatur momo. Cum sociis natoque penatibus et magnis dis parturient ontesmus. Nemo enim ipsam voluptatem quia ptas sit aspernatur
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+    </div>
+</div>
 <div class="logo">
 	<a href="#"><img src="img/logo1.png"></a>
 	<a href="#"><img src="img/logo2.png"></a>
@@ -196,8 +340,12 @@
 		</div>
 <div class="wrapper-about">
 	<div class="footer-about">
+		 <i class="fa fa-map-marker"></i>
 		<span class="location">BuildHomeLtd.  Street Name 123   23 45 Cityname</span>
+		<i class="fa fa-mobile"></i>
+
 		<span class="iphone">+123 900 123 456</span>
+		<i class="fa fa-envelope-o"></i>
 		<span class="email">info@buildhome.web</span>
 		<span class="about">© 2014 Build Home</span>
 	</div>

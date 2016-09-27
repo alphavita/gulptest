@@ -6,11 +6,21 @@
 }
 .sozlink {
 	float: right;
+	.fa {
+		color: #cccccc;
+		font-weight: bold;
+		font-size: 20px;
+		&:hover {
+			color: #248cec;
+		}
+	}
 
-}
-.sozlink a {
+	a {
 	margin-left: 17px;
+	display: block;
+	float: left;
 }
-.fb:hover {
-	background-image: "url:img/facebook-hover.png"
 }
+
+
+

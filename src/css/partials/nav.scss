@@ -4,43 +4,42 @@
 	background-color: #2a2d32;
 	height: 56px;
   margin-bottom: 40px;
-}
-.activ {
-	background-color: #248cec;
-}
-.nav ul li {
-	list-style: none;
-	float: left;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	padding-left: 40px;
-	padding-right: 40px;
 
-}
-.nav ul li a{
-	color: #fff;
-	text-decoration: none;
-	font-size: 14px;
-  	font-family: "UbuntuCondensed", Arial;
-    text-transform: uppercase;
-  	// line-height: 1.429;
- 	text-align: center;
- 	padding-top: 20px;
- 	padding-bottom: 20px;
- 	font-weight: bold;
-}
-.nav ul li:hover {
+  .activ {
+  	background-color: #248cec;
+  }
+   ul li {
+    	list-style: none;
+    	float: left;
+    	padding-top: 20px;
+    	padding-bottom: 20px;
+    	padding-left: 40px;
+    	padding-right: 40px;
 
-	color: orange;
+       a{
+        	color: #fff;
+        	text-decoration: none;
+        	font-size: 14px;
+          	font-family: "UbuntuCondensed", Arial;
+            text-transform: uppercase;
+          	// line-height: 1.429;
+         	text-align: center;
+         	padding-top: 20px;
+         	padding-bottom: 20px;
+         	font-weight: bold;
+            &:hover {
+              color: orange;
+                }
+        }
+        &:hover {
+            color: orange;
+        }
 
-}
-.nav ul li a:hover {
-	color: orange;
-}
-.nav form {
-	float: right;
-}
-.search {
+      }
+    form {
+      float: right;
+      }
+      .search {
   /* устанавливаем необходимую ширину формы в зависимости от дизайна
   ** форма без проблем растягивается */
   width: 241px;
@@ -57,12 +56,14 @@ border-color:  #181a1d;
 box-sizing: border-box;
 background-color:  rgba(255, 255, 255, 0.05);
 }
-
-.search input {
+  input {
   /* отключаем бордюры у инпутов */
   border: none;
 
 }
+    }
+
+
 
 /* стили для поля ввода */
 .search .input {

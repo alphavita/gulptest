@@ -1,4 +1,15 @@
-.wrapper-about {
+@font-face {
+      font-family: 'fontello';
+      src: url('./font/fontello.eot?40786685');
+      src: url('./font/fontello.eot?40786685#iefix') format('embedded-opentype'),
+           url('./font/fontello.woff?40786685') format('woff'),
+           url('./font/fontello.ttf?40786685') format('truetype'),
+           url('./font/fontello.svg?40786685#fontello') format('svg');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+ .wrapper-about {
 	background-color: #35383c;
 	margin: 0 auto;
 
@@ -15,19 +26,30 @@
 	margin: 0 auto;
 	width: 1240px;
 	padding-top: 20px;
-}
-.footer-about span {
+	.fa {
+		 color: #7d8082;
+	}
+	.location {
+ 	padding-right: 20px;
+
+ 	}
+
+ 	.iphone {
+ 	padding-right: 40px;
+
+ 	}
+	.email {
+		padding-right: 416px;
+
+
+	}
+	span {
   font-size: 12px;
   font-family: "Arial";
   color: #7d8082;
   line-height: 1.667;
   }
- .location {
- 	padding-right: 20px;
- }
- .iphone {
- 	padding-right: 40px;
- }
-.email {
-	padding-right: 416px;
+  .iphone_img {
+  	font-size: 20px;
+  }
 }

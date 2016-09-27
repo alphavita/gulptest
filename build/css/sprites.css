@@ -1,0 +1,115 @@
+.facebook,
+.facebook-hover,
+.twitter,
+.twitter1,
+.rss,
+.rss_hover,
+.linkedin,
+.skype_hover,
+.skype,
+.iphone,
+.ln_hover,
+.settings,
+.truck,
+.params,
+.location,
+.email{
+	background: url(../img/sprites.png) no-repeat;
+}
+
+.facebook{
+	background-position: -14px -13px ;
+	width: 8px;
+	height: 16px;
+}
+
+.facebook-hover{
+	background-position: -13px -43px ;
+	width: 8px;
+	height: 16px;
+}
+
+.twitter{
+	background-position: -32px -45px ;
+	width: 17px;
+	height: 13px;
+}
+
+.twitter1{
+	background-position: -33px -15px ;
+	width: 17px;
+	height: 13px;
+}
+
+.rss{
+	background-position: -62px -13px ;
+	width: 15px;
+	height: 15px;
+}
+
+.rss_hover{
+	background-position: -64px -42px ;
+	width: 15px;
+	height: 15px;
+}
+
+.linkedin{
+	background-position: -92px -12px ;
+	width: 16px;
+	height: 15px;
+}
+
+.skype_hover{
+	background-position: -121px -44px ;
+	width: 16px;
+	height: 16px;
+}
+
+.skype{
+	background-position: -121px -14px ;
+	width: 16px;
+	height: 16px;
+}
+
+.iphone{
+	background-position: -20px -94px ;
+	width: 10px;
+	height: 16px;
+}
+
+.ln_hover{
+	background-position: -90px -43px ;
+	width: 16px;
+	height: 15px;
+}
+
+.settings{
+	background-position: -159px -14px ;
+	width: 32px;
+	height: 32px;
+}
+
+.truck{
+	background-position: -204px -16px ;
+	width: 32px;
+	height: 26px;
+}
+
+.params{
+	background-position: -250px -10px ;
+	width: 32px;
+	height: 32px;
+}
+
+.location{
+	background-position: -161px -63px ;
+	width: 12px;
+	height: 16px;
+}
+
+.email{
+	background-position: -215px -73px ;
+	width: 16px;
+	height: 12px;
+}
+

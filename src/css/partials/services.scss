@@ -2,48 +2,77 @@
 	background-color:  #2a2d32;
 	font-family: "Ubuntu", arial;
 }
-.servies figure {
-	width: 257px;
-	float: left;
 
-}
-.servies figure img {
-	width: 257px;
-	height: 257px;
-	text-align: center;
-	overflow: hidden;
-	margin-bottom: 35px;
-
-}
 .servies {
 	margin: 0 auto;
 	width: 1240px;
 	padding-left: 40px;
 	padding-top: 40px;
 	padding-bottom: 60px;
+  figure {
+  width: 257px;
+  float: left;
+  position: relative;
+    img{
+      width: 257px;
+  height: 257px;
+  text-align: center;
+  overflow: hidden;
+  margin-bottom: 35px;
+
+
+    }
+
+
+
+    }
+     h2 {
+        font-size: 24px;
+        font-family: "Ubuntu", arial;
+        color: rgb(255, 255, 255);
+        line-height: 0.833;
+        text-align: left;
+        margin-bottom: 50px;
+        }
+     figcaption {
+       	color: #fff;
+      	font-size: 16px;
+     	  font-family: "Ubuntu", arial;
+     	  line-height: 1.25;
+      	text-align: center;
+      }
+     a {
+    	 text-decoration: none;
+    	 width: 257px;
+    	 height: 315px;
+  	   float: left;
+  	   margin-right: 40px;
+    }
+    figure:hover figcaption{
+	     color: rgb(244, 182, 13);
+       position: relative;
+
+    }
+    p{
+    opacity: 0;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Segoe UI';
+    line-height: 257px;
+     width: 257px;
+    text-align: center;
+    color: #fff;
+    transition: all 1s;
+    position: absolute;
+      top:0px;
 }
-.servies h2 {
-  font-size: 24px;
-  font-family: "Ubuntu", arial;
-  color: rgb(255, 255, 255);
-  line-height: 0.833;
-  text-align: left;
-  margin-bottom: 50px;
-  }
-  .servies figcaption {
-   	color: #fff;
-  	font-size: 16px;
- 	font-family: "Ubuntu", arial;
- 	line-height: 1.25;
-  	text-align: center;
-  }
-  .servies a {
-  	text-decoration: none;
-  	width: 257px;
-  	height: 315px;
-	float: left;
-	margin-right: 40px;
-  }
-  .servies a:hover {
-	color: rgb(244, 182, 13);
+figure:hover p{
+    opacity: 1;
+    background: rgba(46, 144, 233, 0.9);
+    cursor: pointer;
+    transition: all 1s;
+    top:0px;
+    width: 257px;
+}
+
   }
