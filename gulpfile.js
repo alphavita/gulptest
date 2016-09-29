@@ -6,7 +6,6 @@ var sass = require('gulp-sass');
 var sourceMap = require('gulp-sourcemaps');
 var rigger = require('gulp-rigger');
 var cssMin = require('gulp-minify-css');
-var rimRaf = require('rimraf');
 var browserSync = require('browser-sync');
 var reload = browserSync.reload;
 var plumber = require('gulp-plumber');
@@ -99,9 +98,7 @@ gulp.task('watch', function(){
 		});
 	});
 
-gulp.task('clean', function (callback) {
-	rimRaf(patch.clean, callback);
-	});
+
 
 gulp.task('default', ['build', 'webserver', 'watch'])
 
